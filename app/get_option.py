@@ -1,5 +1,4 @@
-import yahoo_fin as yf
-from yahoo_fin import options
 import pandas as pd
+from polygon import RESTClient
 
-chain = yf.options.get_options_chain('nflx')
+client = RESTClient(api_key = '_AIjXwLItYCXZqLtrKlDSe58pcB6AUIs')
